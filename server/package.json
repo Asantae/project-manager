@@ -1,22 +1,14 @@
 {
-  "name": "project-manager",
+  "name": "project-mgmt-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node server/index.js",
-    "dev": "nodemon server/index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Asantae/project-manager.git"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Asantae/project-manager/issues"
-  },
-  "homepage": "https://github.com/Asantae/project-manager#readme",
   "dependencies": {
     "colors": "^1.4.0",
     "cors": "^2.8.5",
